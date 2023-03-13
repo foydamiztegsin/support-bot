@@ -23,7 +23,7 @@ ADMIN_ID = os.getenv('ADMIN_ID')
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.reply("Assalomu alaykum! Men xabarlarini qabul qiluvchi botman. Marhamat, menga xabaringizni yuboring. Bir ozdan so'ng, admin sizga javob jo'natadi.")
+    await message.reply(" Assalomu alaykum! Men xabarlarini qabul qiluvchi botman. Marhamat, menga xabaringizni yuboring. Bir ozdan so'ng, admin sizga javob jo'natadi.")
 # Botga yozilgan har bir xabarga javob berish
 
 # Admin javoblari

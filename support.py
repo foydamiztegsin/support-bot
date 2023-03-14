@@ -35,7 +35,7 @@ async def reply(message: types.Message):
 
     # Javob xabarni olish va javob yozish
     reply_text = ' '.join(text.split(' ')[1:])
-    await bot.send_message(chat_id=user_id, text=reply_text, parse_mode=ParseMode.HTML)
+    await  bot.send_message(chat_id=user_id, text=reply_text, parse_mode=ParseMode.HTML)
 
 
 @dp.message_handler()

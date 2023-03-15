@@ -39,7 +39,7 @@ async def reply(message: types.Message):
 
 
 @dp.message_handler()
-async def echo(message: types.Message):
+async def  echo(message: types.Message):
     # Xabar matnini olish
     text = message.text
 

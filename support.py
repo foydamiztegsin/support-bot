@@ -26,7 +26,7 @@ async def send_welcome(message: types.Message):
     await message.reply(" Assalomu alaykum! Men xabarlarini qabul qiluvchi botman. Marhamat, menga xabaringizni yuboring. Bir ozdan so'ng, admin sizga javob jo'natadi.")
 # Botga yozilgan har bir xabarga javob berish
 
-# Admin javoblari
+#  Admin javoblari
 @dp.message_handler(Command('reply'), user_id=ADMIN_ID)
 async def reply(message: types.Message):
     # Xabar ma'nosi va qabul qiluvchi foydalanuvchi id sini olish
